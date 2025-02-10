@@ -1,3 +1,90 @@
-.container{
-    width: 1300px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff;
+    border-bottom: 2px solid #000;
+}
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 5px 10px;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+.navbar ul li {
+    display: inline;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.icons {
+    display: flex;
+    gap: 15px;
+    font-size: 1.2em;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+.byline {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #555;
+}
+.header {
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.text {
+    width: 40%;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    background: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.pagination {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #888;
+}
+.image {
+    width: 55%;
+}
+.image img {
+    width: 100%;
+    border-radius: 10px;
 }
